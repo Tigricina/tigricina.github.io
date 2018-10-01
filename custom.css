@@ -238,7 +238,6 @@ p {
 
 .txt-2 {
     display: block;
-    align-items: center;
     color: white !important;
     position: absolute;
     bottom: inherit;
