@@ -1,8 +1,7 @@
 
 $(function () {
   $('.carousel').carousel({
-    interval: false,
-    keyboard: true
+    interval: false
   }).swipe( {
 		swipeLeft: function() {
 			$(this).carousel("next");
@@ -14,3 +13,5 @@ $(function () {
 	});
 
 });
+
+

@@ -55,7 +55,6 @@ img {
   }
 */
 
-
      @keyframes animatedBackground {
         0% { background-position: 0 0; }
         50% { background-position: -36em 0; }
@@ -82,11 +81,7 @@ img {
         100% { background-position: 0 0; }
     }
 
-   
-      
-
-    .sl5 { 
-        
+    .sl5 {   
         background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/71_Pool_buds-2000.jpg);
     }
     .sl5,
@@ -147,8 +142,6 @@ img {
         min-height:100vh;
     }
     .sld{
-
-        
           position: absolute;
           top: 18px;
           bottom: 0;
@@ -169,7 +162,6 @@ img {
         width: 50px;
         height: 50px;
     }
-   
     .fixed{
         position: fixed;
     }
@@ -196,3 +188,8 @@ img {
         color: #42BCDA;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
     }}
+    .txt-2 {
+        display: flex !important;
+        align-items: flex-end !important;
+        color: white !important
+    }
