@@ -1,9 +1,10 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 html,
 body {
-height: 100%;
-background-color: rgba(0, 0, 0, 0.85);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
 }
+
 .carousel,
 .carousel-inner,
 .carousel-inner .item,
@@ -17,26 +18,25 @@ background-color: rgba(0, 0, 0, 0.85);
 .pigmeat,
 .childcar,
 .beachboys,
-.img-fluid
-.carousel-inner img {
-height: 100% !important;
+.img-fluid .carousel-inner img {
+    height: 100% !important;
 }
-.img-fluid{
-    
-    
+
+.img-fluid {
     position: relative;
     min-height: 100vh;
-    
-
 }
+
 img {
     vertical-align: middle;
     width: initial;
     height: -webkit-fill-available !important;
 }
+
 .carousel-item {
     position: relative
 }
+
 /*
 .carousel {
     overflow: hidden;
@@ -55,126 +55,172 @@ img {
   }
 */
 
-     @keyframes animatedBackground {
-        0% { background-position: 0 0; }
-        50% { background-position: -36em 0; }
-        100% { background-position: 0 0; }
+@keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
     }
-    @-moz-keyframes animatedBackground {
-        0% { background-position: 0 0; }
-        50% { background-position: -36em 0; }
-        100% { background-position: 0 0; }
+    50% {
+        background-position: -36em 0;
     }
-    @-webkit-keyframes animatedBackground {
-        0% { background-position: 0 0; }
-        50% { background-position: -36em 0; }
-        100% { background-position: 0 0; }
+    100% {
+        background-position: 0 0;
     }
-    @-ms-keyframes animatedBackground {
-        0% { background-position: 0 0; }
-        50% { background-position: -36em 0; }
-        100% { background-position: 0 0; }
-    }
-    @-o-keyframes animatedBackground {
-        0% { background-position: 0 0; }
-        50% { background-position: -36em 0; }
-        100% { background-position: 0 0; }
-    }
+}
 
-    .sl5 {   
-        background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/71_Pool_buds-2000.jpg);
+@-moz-keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
     }
-    .sl5,
-    .imgsl,
-    .fontan,
-    .grands,
-    .restgirl,
-    .artist,
-    .menpark,
-    .pigmeat,
-    .childcar,
-    .beachboys {
-        background-position: 0px 0px;
-        background-size: cover;
-        animation: animatedBackground 12s  ease-in;
-        -moz-animation: animatedBackground 12s  ease-in;
-        -webkit-animation: animatedBackground 12s  ease-in;
-        -ms-animation: animatedBackground 12s  ease-in;
-        -o-animation: animatedBackground 12s  ease-in;
+    50% {
+        background-position: -36em 0;
     }
+    100% {
+        background-position: 0 0;
+    }
+}
 
-    
-    .imgsl {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/52_Golf_in_Mist-2000.jpg);
-        min-height:100vh;
-        }
-    .fontan {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/79_Park_crowd-2000.jpg);
-        min-height:100vh;
+@-webkit-keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
     }
-    .grands {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/80_Park_party-2000.jpg);
-        min-height:100vh;
+    50% {
+        background-position: -36em 0;
     }
-    .restgirl {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/29_Resting_Girl-2000.jpg);
-        min-height:100vh;
+    100% {
+        background-position: 0 0;
     }
-    .menpark {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/61_Tender_Vittles_Cats-2000.jpg);
-        min-height:100vh;
-    }
-    .artist {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/65_Landscape_Artists-2000.jpg);
-        min-height:100vh;
-    }
-    .pigmeat {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/01_Pig_Roast-2000.jpg);
-        min-height:100vh;
-        
-    }
-    .childcar {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/04_Kids_Play_with_Car-2000.jpg);
-        min-height:100vh;
-    }
-    .beachboys {
-        background-image:url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/77_Beach_muscles-2000.jpg);
-        min-height:100vh;
-    }
-    .sld{
-          position: absolute;
-          top: 18px;
-          bottom: 0;
-          z-index: 10;
-          padding-top: 60px;
-          padding-bottom: 219px;
-          padding-left: 30px;
-          padding-right: 30px;
-          color: #fff;
-          text-align: left;
-          margin-left: -30px;
-          margin-right: -30px
-        }
-    .swiper {
-        position: absolute;
-        right: 30px;
-        top: calc(100vh - 225px);
-        width: 50px;
-        height: 50px;
-    }
-    .fixed{
-        position: fixed;
-    }
-    h1 {
-        font-style: normal;
-        font-family: nyt-cheltenham,georgia,times new roman,times,serif;
-    }
-    p{
-        font-style: normal;
-        font-family: georgia,times new roman,times,serif;  
-    }
+}
 
-    @media (max-width: 800px) {
+@-ms-keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: -36em 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-o-keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: -36em 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.sl5 {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/71_Pool_buds-2000.jpg);
+}
+
+.sl5,
+.imgsl,
+.fontan,
+.grands,
+.restgirl,
+.artist,
+.menpark,
+.pigmeat,
+.childcar,
+.beachboys {
+    background-position: 0px 0px;
+    background-size: cover;
+    animation: animatedBackground 12s ease-in;
+    -moz-animation: animatedBackground 12s ease-in;
+    -webkit-animation: animatedBackground 12s ease-in;
+    -ms-animation: animatedBackground 12s ease-in;
+    -o-animation: animatedBackground 12s ease-in;
+}
+
+.imgsl {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/52_Golf_in_Mist-2000.jpg);
+    min-height: 100vh;
+}
+
+.fontan {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/79_Park_crowd-2000.jpg);
+    min-height: 100vh;
+}
+
+.grands {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/80_Park_party-2000.jpg);
+    min-height: 100vh;
+}
+
+.restgirl {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/29_Resting_Girl-2000.jpg);
+    min-height: 100vh;
+}
+
+.menpark {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/61_Tender_Vittles_Cats-2000.jpg);
+    min-height: 100vh;
+}
+
+.artist {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/65_Landscape_Artists-2000.jpg);
+    min-height: 100vh;
+}
+
+.pigmeat {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/01_Pig_Roast-2000.jpg);
+    min-height: 100vh;
+}
+
+.childcar {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/04_Kids_Play_with_Car-2000.jpg);
+    min-height: 100vh;
+}
+
+.beachboys {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/77_Beach_muscles-2000.jpg);
+    min-height: 100vh;
+}
+
+.sld {
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    z-index: 10;
+    padding-top: 60px;
+    padding-bottom: 219px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    text-align: left;
+    margin-left: -30px;
+    margin-right: -30px
+}
+
+.swiper {
+    position: absolute;
+    right: 30px;
+    top: calc(100vh - 225px);
+    width: 50px;
+    height: 50px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+h1 {
+    font-style: normal;
+    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+}
+
+p {
+    font-style: normal;
+    font-family: georgia, times new roman, times, serif;
+}
+
+@media (max-width: 800px) {
     .swiper span {
         display: inline-block;
         -webkit-font-smoothing: antialiased;
@@ -187,9 +233,13 @@ img {
         right: 94px;
         color: #42BCDA;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
-    }}
-    .txt-2 {
-        display: flex !important;
-        align-items: flex-end !important;
-        color: white !important
     }
+}
+
+.txt-2 {
+    display: block;
+    align-items: center;
+    color: white !important;
+    position: absolute;
+    bottom: inherit;
+}
