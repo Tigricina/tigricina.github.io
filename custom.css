@@ -21,7 +21,16 @@ body {
 .img-fluid .carousel-inner img {
     height: 100% !important;
 }
-
+header{
+    position: absolute;
+    z-index: 99999;
+}
+.logo{
+    background-color:transparent;
+}
+.logo>svg {
+    fill:white
+}
 .img-fluid {
     position: relative;
     min-height: 100vh;
