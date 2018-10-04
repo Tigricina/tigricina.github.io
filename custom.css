@@ -222,6 +222,23 @@ img {
 h1 {
     font-style: normal;
     font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    max-width: 300px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
+
+   
+}
+h1:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px rgba(0, 0, 0, 0.6) solid;
+    margin: 13px 0 17px 0;
 }
 
 p {
@@ -244,10 +261,35 @@ p {
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
     }
 }
+.txt-1 {
+    color: white;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+font: italic 18px/1.33333333 georgia, "times new roman", times, serif;
+margin-bottom: 0;
+
+} 
 
 .txt-2 {
     display: block;
     color: white !important;
     position: absolute;
     bottom: inherit;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(50px);
+}
+
+.txt-3 {
+    display: block;
+    color: white !important;
+    position: absolute;
+    bottom: inherit;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(70px);
+}
+h5 {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 }
