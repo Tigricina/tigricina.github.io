@@ -24,6 +24,7 @@ body {
 header{
     position: absolute;
     z-index: 99999;
+    top: 10px;
 }
 .logo{
     background-color:transparent;
@@ -284,4 +285,12 @@ h5 {
     font-size: 1.2rem;
     font-style: normal;
     font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+}
+.progress {
+    margin-bottom: 0;
+    z-index: 9999999;
+    height: 5px;
+    top: 5px;
+    position: absolute;
+    width: 100%;
 }
