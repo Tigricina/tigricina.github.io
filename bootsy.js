@@ -28,6 +28,18 @@ $(function () {
 		},
 		allowPageScroll: "vertical"
 	});
+	
+	$('#carouselExampleControls').on('slid.bs.carousel', function () {
+		let $conditionItem = $('.carousel-item.black-logo');		
+		if ($conditionItem.hasClass("active")) {
+			$('svg').css('fill', 'black');
+		}else{
+			$('svg').css('fill', 'white');
+		}
+		
+	  })
+		
+
 
 });
 

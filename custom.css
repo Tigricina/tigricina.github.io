@@ -179,14 +179,14 @@ img {
     top: 18px;
     bottom: 0;
     z-index: 10;
-    padding-top: 60px;
+    /*padding-top: 60px;
     padding-bottom: 219px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 30px;*/
     color: #fff;
     text-align: left;
-    margin-left: -30px;
-    margin-right: -30px
+   /* margin-left: -30px;
+    margin-right: -30px*/
 }
 
 .swiper {
@@ -252,13 +252,24 @@ margin-bottom: 0;
 } 
 
 .txt-2 {
-    display: block;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    color: white !important;
+    font-size: 1.75rem;
+    font-weight: 500;
+    bottom: 10rem;
+    margin: 0 1rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+
+
+    /*display: block;
     color: white !important;
     position: absolute;
     bottom: inherit;
     font-size: 1.75rem;
     font-weight: 500;
-    transform: translateY(50px);
+    transform: translateY(50px);*/
 }
 
 .txt-3 {
@@ -277,9 +288,27 @@ margin-bottom: 0;
     color: white !important;
     font-size: 1.75rem;
     font-weight: 500;
-    bottom: 140px;
-    margin-left: 40px;
+    bottom: 10rem;
+    margin: 0 4rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+.txt-5 {
+    display: block;
+    color: white !important;
+    position: absolute;
+    bottom: inherit;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(70px);
+    margin: 0 10%;
+}
+.txt-6 {
+    color: black !important;
+    position: absolute;
+    top: 10%; 
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0 4rem;
 }
 h5 {
     font-size: 1.2rem;
