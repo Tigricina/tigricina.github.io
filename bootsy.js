@@ -33,6 +33,8 @@ $(function () {
 		let $conditionItem = $('.carousel-item.black-logo');		
 		if ($conditionItem.hasClass("active")) {
 			$('svg').css('fill', 'black');
+			$('.txt-6').css('color', 'black');
+			$('.txt-4').css('color', 'black');
 		}else{
 			$('svg').css('fill', 'white');
 		}

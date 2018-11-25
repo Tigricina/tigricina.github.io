@@ -174,20 +174,7 @@ img {
     min-height: 100vh;
 }
 
-.sld {
-    position: absolute;
-    top: 18px;
-    bottom: 0;
-    z-index: 10;
-    /*padding-top: 60px;
-    padding-bottom: 219px;
-    padding-left: 30px;
-    padding-right: 30px;*/
-    color: #fff;
-    text-align: left;
-   /* margin-left: -30px;
-    margin-right: -30px*/
-}
+
 
 .swiper {
     position: absolute;
@@ -243,6 +230,21 @@ p {
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
     }
 }
+
+.sld {
+    position: absolute;
+    top: 5rem;
+    bottom: 0;
+    z-index: 10;
+    /*padding: 60px 30px 219px 30px;
+      padding: top right bottom left
+    */
+    color: #fff;
+    text-align: left;
+   /* margin-left: -30px;
+    margin-right: -30px*/
+}
+
 .txt-1 {
     color: white;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
@@ -255,21 +257,19 @@ margin-bottom: 0;
     position: relative;
     display: flex;
     align-items: flex-end;
-    color: white !important;
+    color: white;
     font-size: 1.75rem;
     font-weight: 500;
-    bottom: 10rem;
-    margin: 0 1rem;
+    bottom: 0;
+    margin: 20rem -1rem 0 -1rem;
+  
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
 
-
-    /*display: block;
-    color: white !important;
+/*
+    display: block;
     position: absolute;
     bottom: inherit;
-    font-size: 1.75rem;
-    font-weight: 500;
-    transform: translateY(50px);*/
+    transform: translateY(50px); */
 }
 
 .txt-3 {
@@ -289,6 +289,7 @@ margin-bottom: 0;
     font-size: 1.75rem;
     font-weight: 500;
     bottom: 10rem;
+    /*bottom: 10rem; - for beachboys*/
     margin: 0 4rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -299,16 +300,30 @@ margin-bottom: 0;
     bottom: inherit;
     font-size: 1.75rem;
     font-weight: 500;
-    transform: translateY(70px);
+    transform: translateY(85px);
     margin: 0 10%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 .txt-6 {
-    color: black !important;
     position: absolute;
     top: 10%; 
     font-size: 1.75rem;
     font-weight: 500;
     margin: 0 4rem;
+}
+.txt-7 {
+    display: block;
+    color: white !important;
+    position: absolute;
+    bottom: inherit;
+    left:5rem;
+    top: 0;
+    left: 10px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(85px);
+    margin: 0 17% 0 2%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 h5 {
     font-size: 1.2rem;
