@@ -274,7 +274,7 @@ margin-bottom: 0;
 
 .txt-3 {
     display: block;
-    color: white !important;
+    color: white;
     position: absolute;
     bottom: inherit;
     font-size: 1.75rem;
@@ -285,17 +285,17 @@ margin-bottom: 0;
     position: relative;
     display: flex;
     align-items: flex-end;
-    color: white !important;
+    color: white;
     font-size: 1.75rem;
     font-weight: 500;
-    bottom: 10rem;
+    bottom: 16rem;
     /*bottom: 10rem; - for beachboys*/
     margin: 0 4rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 .txt-5 {
     display: block;
-    color: white !important;
+    color: white;
     position: absolute;
     bottom: inherit;
     font-size: 1.75rem;
@@ -313,7 +313,7 @@ margin-bottom: 0;
 }
 .txt-7 {
     display: block;
-    color: white !important;
+    color: white;
     position: absolute;
     bottom: inherit;
     left:5rem;
@@ -337,4 +337,9 @@ h5 {
     top: 5px;
     position: absolute;
     width: 100%;
+}
+
+.black-logo > p {
+    color: black;
+    text-shadow: 1px 1px 1px rgba(213, 213, 213, 0.5), 1px -1px 1px rgba(213, 213, 213, 0.5), -1px 1px 1px rgba(213, 213, 213, 0.5), -1px -1px 1px rgba(213, 213, 213, 0.5);
 }
