@@ -4,7 +4,102 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.85);
 }
+.sl5 {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/71_Pool_buds-2000.jpg);
+}
 
+.imgsl, .fontan, .grands, .restgirl, .menpark, .artist, .pigmeat, .childcar, .beachboys {
+    min-height: 100vh
+}
+.imgsl {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/52_Golf_in_Mist-2000.jpg)
+}
+.fontan {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/79_Park_crowd-2000.jpg)
+}
+.grands {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/80_Park_party-2000.jpg)
+}
+.restgirl {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/29_Resting_Girl-2000.jpg)
+}
+.menpark {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/61_Tender_Vittles_Cats-2000.jpg)
+}
+.artist {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/65_Landscape_Artists-2000.jpg)
+}
+.pigmeat {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/01_Pig_Roast-2000.jpg)
+}
+.childcar {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/04_Kids_Play_with_Car-2000.jpg)
+}
+.beachboys {
+    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/77_Beach_muscles-2000.jpg)
+}
+
+.swiper {
+    position: absolute;
+    right: 30px;
+    top: calc(100vh - 225px);
+    width: 50px;
+    height: 50px;
+}
+.fixed {
+    position: fixed;
+}
+
+h1 {
+    font-style: normal;
+    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    max-width: 300px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
+
+   
+}
+h1:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px rgba(0, 0, 0, 0.6) solid;
+    margin: 13px 0 17px 0;
+}
+
+p {
+    font-style: normal;
+    font-family: georgia, times new roman, times, serif;
+}
+
+@media (max-width: 800px) {
+
+header{
+    position: absolute;
+    z-index: 99999;
+    top: 10px
+}
+.logo{
+    background-color:transparent
+}
+.logo>svg {
+    fill:white
+}    
+.img-fluid {
+    position: relative;
+    min-height: 100vh
+}
+img {
+    object-fit: cover
+}
+.carousel-item {
+    position: relative
+}
 .carousel,
 .carousel-inner,
 .carousel-inner .item,
@@ -19,31 +114,147 @@ body {
 .childcar,
 .beachboys,
 .img-fluid .carousel-inner img {
-    height: 100% !important;
+    height: 100% !important
 }
-header{
+    .swiper span {
+        display: inline-block;
+        -webkit-font-smoothing: antialiased;
+        font: 500 italic 18px/1.33333333 "nyt-franklin", Arial, sans-serif;
+        letter-spacing: 0.05em;
+        text-align: right;
+        width: 80px;
+        position: relative;
+        top: 46px;
+        right: 94px;
+        color: #42BCDA;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
+    }
+}
+
+.sld {
     position: absolute;
-    z-index: 99999;
-    top: 10px;
+    top: 5rem;
+    bottom: 0;
+    z-index: 10;
+    /*padding: 60px 30px 219px 30px;
+      padding: top right bottom left
+    */
+    color: #fff;
+    text-align: left;
+   /* margin-left: -30px;
+    margin-right: -30px*/
 }
-.logo{
-    background-color:transparent;
-}
-.logo>svg {
-    fill:white
-}
-.img-fluid {
+
+.txt-1 {
+color: white;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+font: italic 18px/1.33333333 georgia, "times new roman", times, serif;
+margin-bottom: 0;
+
+} 
+
+.txt-2 {
     position: relative;
-    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    bottom: 0;
+    margin: 20rem -1rem 0 -1rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
 }
 
-img {
-  
-    object-fit: cover;
+.txt-3 {
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: inherit;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(70px);
+}
+.txt-4 {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    bottom: 14rem;
+    /*bottom: 10rem; - for beachboys*/
+    margin: 0 4rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+.txt-5 {
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: inherit;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(85px);
+    margin: 0 10%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+.txt-6 {
+    position: absolute;
+    top: 10%; 
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0 4rem;
+}
+.txt-7 {
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: inherit;
+    left:5rem;
+    top: 0;
+    left: 10px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transform: translateY(85px);
+    margin: 0 17% 0 2%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+.txt-8 {
+    display: block;
+    color: white;
+    position: relative;
+    
+    left:5rem;
+    top: -65%;
+    left: 10px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    
+    margin: 0 17% 0 2%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
+}
+h5 {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 }
 
-.carousel-item {
-    position: relative
+.sl5,
+.imgsl,
+.fontan,
+.grands,
+.restgirl,
+.artist,
+.menpark,
+.pigmeat,
+.childcar,
+.beachboys {
+    background-position: 0px 0px;
+    background-size: cover;
+    animation: animatedBackground 12s ease-in;
+    -moz-animation: animatedBackground 12s ease-in;
+    -webkit-animation: animatedBackground 12s ease-in;
+    -ms-animation: animatedBackground 12s ease-in;
+    -o-animation: animatedBackground 12s ease-in;
 }
 
 @keyframes animatedBackground {
@@ -104,231 +315,6 @@ img {
     100% {
         background-position: 0 0;
     }
-}
-
-.sl5 {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/71_Pool_buds-2000.jpg);
-}
-
-.sl5,
-.imgsl,
-.fontan,
-.grands,
-.restgirl,
-.artist,
-.menpark,
-.pigmeat,
-.childcar,
-.beachboys {
-    background-position: 0px 0px;
-    background-size: cover;
-    animation: animatedBackground 12s ease-in;
-    -moz-animation: animatedBackground 12s ease-in;
-    -webkit-animation: animatedBackground 12s ease-in;
-    -ms-animation: animatedBackground 12s ease-in;
-    -o-animation: animatedBackground 12s ease-in;
-}
-
-.imgsl {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/52_Golf_in_Mist-2000.jpg);
-    min-height: 100vh;
-}
-
-.fontan {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/79_Park_crowd-2000.jpg);
-    min-height: 100vh;
-}
-
-.grands {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/80_Park_party-2000.jpg);
-    min-height: 100vh;
-}
-
-.restgirl {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/29_Resting_Girl-2000.jpg);
-    min-height: 100vh;
-}
-
-.menpark {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/61_Tender_Vittles_Cats-2000.jpg);
-    min-height: 100vh;
-}
-
-.artist {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/65_Landscape_Artists-2000.jpg);
-    min-height: 100vh;
-}
-
-.pigmeat {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/01_Pig_Roast-2000.jpg);
-    min-height: 100vh;
-}
-
-.childcar {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/04_Kids_Play_with_Car-2000.jpg);
-    min-height: 100vh;
-}
-
-.beachboys {
-    background-image: url(https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/77_Beach_muscles-2000.jpg);
-    min-height: 100vh;
-}
-
-
-
-.swiper {
-    position: absolute;
-    right: 30px;
-    top: calc(100vh - 225px);
-    width: 50px;
-    height: 50px;
-}
-
-.fixed {
-    position: fixed;
-}
-
-h1 {
-    font-style: normal;
-    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
-    font-size: 32px;
-    line-height: 1.125;
-    font-weight: 500;
-    letter-spacing: 0.025em;
-    max-width: 300px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
-
-   
-}
-h1:after {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-bottom: 1px rgba(0, 0, 0, 0.6) solid;
-    margin: 13px 0 17px 0;
-}
-
-p {
-    font-style: normal;
-    font-family: georgia, times new roman, times, serif;
-}
-
-@media (max-width: 800px) {
-    .swiper span {
-        display: inline-block;
-        -webkit-font-smoothing: antialiased;
-        font: 500 italic 18px/1.33333333 "nyt-franklin", Arial, sans-serif;
-        letter-spacing: 0.05em;
-        text-align: right;
-        width: 80px;
-        position: relative;
-        top: 46px;
-        right: 94px;
-        color: #42BCDA;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
-    }
-}
-
-.sld {
-    position: absolute;
-    top: 5rem;
-    bottom: 0;
-    z-index: 10;
-    /*padding: 60px 30px 219px 30px;
-      padding: top right bottom left
-    */
-    color: #fff;
-    text-align: left;
-   /* margin-left: -30px;
-    margin-right: -30px*/
-}
-
-.txt-1 {
-    color: white;
-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
-font: italic 18px/1.33333333 georgia, "times new roman", times, serif;
-margin-bottom: 0;
-
-} 
-
-.txt-2 {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    font-size: 1.75rem;
-    font-weight: 500;
-    bottom: 0;
-    margin: 20rem -1rem 0 -1rem;
-  
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
-
-/*
-    display: block;
-    position: absolute;
-    bottom: inherit;
-    transform: translateY(50px); */
-}
-
-.txt-3 {
-    display: block;
-    color: white;
-    position: absolute;
-    bottom: inherit;
-    font-size: 1.75rem;
-    font-weight: 500;
-    transform: translateY(70px);
-}
-.txt-4 {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    font-size: 1.75rem;
-    font-weight: 500;
-    bottom: 10rem;
-    /*bottom: 10rem; - for beachboys*/
-    margin: 0 4rem;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
-}
-.txt-5 {
-    display: block;
-    color: white;
-    position: absolute;
-    bottom: inherit;
-    font-size: 1.75rem;
-    font-weight: 500;
-    transform: translateY(85px);
-    margin: 0 10%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
-}
-.txt-6 {
-    position: absolute;
-    top: 10%; 
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin: 0 4rem;
-}
-.txt-7 {
-    display: block;
-    color: white;
-    position: absolute;
-    bottom: inherit;
-    left:5rem;
-    top: 0;
-    left: 10px;
-    font-size: 1.75rem;
-    font-weight: 500;
-    transform: translateY(85px);
-    margin: 0 17% 0 2%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px -1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 1px rgba(0, 0, 0, 0.5);
-}
-h5 {
-    font-size: 1.2rem;
-    font-style: normal;
-    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 }
 .progress {
     margin-bottom: 0;
