@@ -76,6 +76,42 @@ p {
     font-style: normal;
     font-family: georgia, times new roman, times, serif;
 }
+@media (max-width: 1500px) {
+    body {
+        
+        background-color: white;
+    }
+    .progress {
+        display: none
+    }
+    .logo {
+        width: 50%;
+	    float: left;
+    }
+    .carousel-inner {
+        position: absolute
+    }
+    .img-fluid {
+        height: 100vh;
+        
+            object-fit: cover
+        
+    }
+    .carousel-item>img {
+        width: 50%;
+	    float: right;
+    }
+    .carousel-item>sld {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+    }
+    .carousel-item {overflow:hidden; }
+    .sld {
+        position: static !important;
+        padding: 0
+    }
+}
 
 @media (max-width: 800px) {
 
