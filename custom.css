@@ -76,44 +76,9 @@ p {
     font-style: normal;
     font-family: georgia, times new roman, times, serif;
 }
-@media (max-width: 1500px) {
-    body {
-        
-        background-color: white;
-    }
-    .progress {
-        display: none
-    }
-    .logo {
-        width: 50%;
-	    float: left;
-    }
-    .carousel-inner {
-        position: absolute
-    }
-    .img-fluid {
-        height: 100vh;
-        
-            object-fit: cover
-        
-    }
-    .carousel-item>img {
-        width: 50%;
-	    float: right;
-    }
-    .carousel-item>sld {
-        width: 50%;
-        float: left;
-        overflow: hidden;
-    }
-    .carousel-item {overflow:hidden; }
-    .sld {
-        position: static !important;
-        padding: 0
-    }
-}
 
-@media (max-width: 800px) {
+
+@media (max-width: 800px) and (orientation:portrait) {
 
 header{
     position: absolute;
@@ -125,7 +90,10 @@ header{
 }
 .logo>svg {
     fill:white
-}    
+} 
+.home-button {
+    display: none
+}   
 .img-fluid {
     position: relative;
     min-height: 100vh
@@ -364,4 +332,59 @@ h5 {
 .black-logo > p {
     color: black;
     text-shadow: 1px 1px 1px rgba(213, 213, 213, 0.5), 1px -1px 1px rgba(213, 213, 213, 0.5), -1px 1px 1px rgba(213, 213, 213, 0.5), -1px -1px 1px rgba(213, 213, 213, 0.5);
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1500px) and (orientation:portrait) {
+    body {
+        
+        background-color:rgba(255, 255, 255);
+    }
+    .progress {
+        display: none
+    }
+    .logo {
+        width: 50%;
+        float: left;
+        
+    }
+    svg {
+        fill: rgba(152, 152, 152, .5)
+    }
+    .home-button {
+        border-bottom-style: none;
+        
+        font-size: 16px;
+        line-height: 40px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: nyt-franklin,arial,helvetica,sans-serif;
+        color: rgba(152, 152, 152, .5);
+        text-transform: none;
+        border: none;
+        background: transparent;
+        padding: 0
+    }
+    .carousel-inner {
+        position: absolute
+    }
+    .img-fluid {
+        height: 100vh;
+        
+            object-fit: cover
+        
+    }
+    .carousel-item>img {
+        width: 50%;
+	    float: right;
+    }
+    .carousel-item>sld {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+    }
+    .carousel-item {overflow:hidden; }
+    .sld {
+        position: static !important;
+        padding: 5%
+    }
 }
